@@ -3,104 +3,73 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Dragon </title>
-  <link rel="stylesheet" href="CSS-Style/Photo.css">
+  <title> Home-1 </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="CSS-Style/index.css">
+  <div class="header">
+    <nav>
+      <input type="radio" name="tab" id="Home" checked>
+      <input type="radio" name="tab" id="Chat">
+      <input type="radio" name="tab" id="Messages">
+      <input type="radio" name="tab" id="Favorites">
+      <input type="radio" name="tab" id="Account">
+      <input type="radio" name="tab" id="search">
 
+      <label hx-get="/Pages/imges/imges-1.html" hx-target=".body" for="Home" class="Home"><a href="#"><i class="fas fa-home"></i>Home</a></label>
+      <label hx-get="/Pages/clock.html" hx-target=".body" for="Chat" class="Chat"><a href="#"><i class="fas fa-clock"></i>Clocks</a></label>
+      <label for="Messages" class="Messages"><a href="#"><i class="fas fa-gamepad"></i> Fun </a></label>
+      <label for="Favorites" class="Favorites"><a href="#"><i class="fas fa-heart"></i>Ioved</a></label>
+      <label for="Account" class="Account"><a href="#"><i class="fas fa-user"></i>Account</a></label>
+      <label for="search" class="search"><a href="#"><i class="fas fa-search"></i>search</a></label>
+      <div class="tab"></div>
+    </nav>
+  </div>
 </head>
 
 <body>
-  <header class="header">
-    <Span class="T1"> Types of Car Bodies </Span>
-  </header>
-
-  <img class="Sedan" src="imges/Sedan.jpg" alt="Sedan" usemap="#Sedan">
-
-  <map name="Sedan" class="Sedan">
-    <area shape="rect" coords="0,0,664,373" alt="Sedan" href="computer.htm">
-  </map>
-
-  <img class="Coupe" src="imges/Coupe.jpg" alt="Coupe" usemap="#Coupe">
-
-  <map name="Coupe" class="Coupe">
-    <area shape="rect" coords="0,0,664,373" alt="Coupe" href="computer.htm">
-  </map>
-
-  <img class="Hatchback" src="imges/Hatchback.jpg" alt="Hatchback" usemap="#Hatchback">
-  <map name="Hatchback" class="Hatchback">
-    <area shape="rect" coords="0,0,664,373" alt="Hatchback" href="computer.htm">
-  </map>
-
-  <img class="Pickup" src="imges/Pickup.jpg" alt="Pickup" usemap="#Pickup">
-  <map name="Pickup" class="Pickup">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Pickup">
-  </map>
-
-  <img class="Off-road" src="imges/Off-road.jpg" alt="Off-road" usemap="#Off-road">
-  <map name="Off-road" class="Off-road">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Off-road">
-  </map>
-
-  <img class="Sport" src="imges/Sport.jpg" alt="Sport" usemap="#Sport">
-  <map name="Sport" class="Sport">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Sport">
-  </map>
-
-  <img class="Micro" src="imges/Micro.jpg" alt="Micro" usemap="#Micro">
-  <map name="Micro" class="Micro">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Micro">
-  </map>
-
-  <img class="Van" src="imges/Van.jpg" alt="Van" usemap="#Van">
-  <map name="Van" class="Van">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Van">
-  </map>
-
-  <img class="convertible" src="imges/convertible.jpg" alt="convertible" usemap="#convertible">
-  <map name="convertible" class="convertible">
-    <area shape="rect" coords="0,0,664,373" href="" alt="convertible">
-  </map>
-
-  <img class="Crossover" src="imges/Crossover.jpg" alt="Crossover" usemap="#Crossover">
-  <map name="Crossover" class="Crossover">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Crossover">
-  </map>
-
-  <img class="SUV" src="imges/SUV.jpg" alt="SUV" usemap="#SUV">
-  <map name="SUV" class="SUV">
-    <area shape="rect" coords="0,0,664,373" href="" alt="SUV">
-  </map>
-
-  <img class="Wagon" src="imges/Wagon.jpg" alt="Wagon" usemap="#Wagon">
-  <map name="Wagon" class="Wagon">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Wagon">
-  </map>
-
-  <img class="Muscle" src="imges/Muscle.jpg" alt="Muscle" usemap="#Muscle">
-  <map name="Muscle" class="Muscle">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Muscle">
-  </map>
-
-  <img class="Roadster" src="imges/Roadster.jpg" alt="Roadster" usemap="#Roadster">
-  <map name="Roadster" class="Roadster">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Roadster">
-  </map>
-
-  <img class="Cabriolet" src="imges/Cabriolet.jpg" alt="Cabriolet" usemap="#Cabriolet">
-  <map name="Cabriolet" class="Cabriolet">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Cabriolet">
-  </map>
-
-  <img class="Limousine" src="imges/Limousine.jpg" alt="Limousine" usemap="#Limousine">
-  <map name="Limousine" class="Limousine">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Limousine">
-  </map>
-
-  
-  <img class="Formula1" src="imges/Formula 1.jpg" alt="Formula1" usemap="#Formula1">
-  <map name="Formula1" class="Formula1">
-    <area shape="rect" coords="0,0,664,373" href="" alt="Formula1">
-  </map>
-
+  <div class="body">
+    <div class="title">
+      <span class="namewab"> Dragon☻ </span>
+      <p class="titler"> برای دانلود پس زمینه دلخواه خود روی آن کلیک کنید </p>
+    </div>
+    <div class="body-img">
+      <a href="imges/dragon-fighter-officel.github.ioPM (1).jpg" download>
+        <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (1).jpg" alt="img">
+          <p>برای دانلود کلیک کنید</p>
+        </article>
+      </a>
+      <a href="imges/dragon-fighter-officel.github.ioPM (2).jpg" download>
+        <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (2).jpg" alt="img">
+        <p>برای دانلود کلیک کنید</p>
+      </article>
+      </a>
+      <a href="imges/dragon-fighter-officel.github.ioPM (3).jpg" download>
+      <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (3).jpg" alt="img">
+        <p>برای دانلود کلیک کنید</p>
+      </article>
+      </a>
+      <a href="imges/dragon-fighter-officel.github.ioPM (4).jpg" download>
+      <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (4).jpg" alt="img">
+        <p>برای دانلود کلیک کنید</p>
+      </article>
+      </a>
+      <div class="Wallpaper">
+      </div>
+    </div>
+    <form class="BtnP">
+      <p class="footer"> Copyright © 2025 Dragon☻ All rights reserved </p>
+      <input hx-get="/Pages/imges/imges-1.html" hx-target=".body" type="button" class="BtnP-1" value="1">
+      <input hx-get="/Pages/imges/imges-2.html" hx-target=".body" type="button" class="BtnP-2" value="2">
+      <input hx-get="/Pages/imges/imges-3.html" hx-target=".body" type="button" class="BtnP-3" value="3">
+      <input hx-get="/Pages/imges/imges-4.html" type="button" class="BtnP-4" value="4">
+      <input hx-get="/Pages/imges/imges-5.html" type="button" class="BtnP-5" value="5">
+    </form>
 </body>
 </html>
+<script src="Java/index.js"></script>
+<script src="https://unpkg.com/htmx.org@2.0.4"></script>

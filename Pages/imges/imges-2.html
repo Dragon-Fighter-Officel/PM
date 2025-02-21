@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Home-2 </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="CSS-Style/index.css">
+</head>
+
+<body>
+  <div class="body">
+    <div class="title">
+      <span class="namewab"> Dragon☻ </span>
+      <p class="titler"> برای دانلود پس زمینه دلخواه خود روی آن کلیک کنید </p>
+    </div>
+    <div class="body-img">
+      <a href="../imges/dragon-fighter-officel.github.ioPM (21).jpg" download>
+        <article class="imges"><img class="img-1" src="../imges/dragon-fighter-officel.github.ioPM (21).jpg" alt="img">
+          <p>برای دانلود کلیک کنید</p>
+        </article>
+      </a>
+      <a href="../imges/dragon-fighter-officel.github.ioPM (22).jpg" download>
+        <article class="imges"><img class="img-1" src="../imges/dragon-fighter-officel.github.ioPM (22).jpg" alt="img">
+        <p>برای دانلود کلیک کنید</p>
+      </article>
+      </a>
+      <a href="../imges/dragon-fighter-officel.github.ioPM (23).jpg" download>
+      <article class="imges"><img class="img-1" src="../imges/dragon-fighter-officel.github.ioPM (23).jpg" alt="img">
+        <p>برای دانلود کلیک کنید</p>
+      </article>
+      </a>
+      <a href="../imges/dragon-fighter-officel.github.ioPM (24).jpg" download>
+      <article class="imges"><img class="img-1" src="../imges/dragon-fighter-officel.github.ioPM (24).jpg" alt="img">
+        <p>برای دانلود کلیک کنید</p>
+      </article>
+      </a>
+      <div class="Wallpaper">
+      </div>
+    </div>
+    <form class="BtnP">
+      <p class="footer"> Copyright © 2025 Dragon☻ All rights reserved </p>
+      <input hx-get="/Pages/imges/imges-1.html" hx-target=".body" type="button" class="BtnP-1" value="1">
+      <input type="button" class="BtnP-2" value="2">
+      <input hx-get="/Pages/imges/imges-3.html" hx-target=".body" type="button" class="BtnP-3" value="3">
+      <input type="button" class="BtnP-4" value="4">
+      <input type="button" class="BtnP-5" value="5">
+    </form>
+</body>
+</html>
+<script>
+    var divv = document.querySelector(".Wallpaper");
+var total = 40;
+for (var i = 25; i <= total; i++) {
+    divv.innerHTML+=`<a href="../imges/dragon-fighter-officel.github.ioPM (${i}).jpg" download><article class="imges-1"><img class="img-1" src="../imges/dragon-fighter-officel.github.ioPM (${i}).jpg" alt="img"><p>برای دانلود کلیک کنید</p></article></a>`
+}
+</script>
+<script src="https://unpkg.com/htmx.org@2.0.4"></script>
