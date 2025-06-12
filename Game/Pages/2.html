@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <div class="A">
+    <nav class="body-Game">
+        <p class="text-box-1"></p>
+        <nav class="text-box">
+            </br>
+            <span class="text"> Now look around and see what country's name is written in front of the number you got and remember it </span>
+        </nav>
+        <table class="table-1">
+            <tr>
+                <td>1. Iran</td>
+                <td>2. France</td>
+                <td>3. Germany</td>
+                <td>4. Japan</td>
+            </tr>
+            <tr>
+                <td>5. Canada</td>
+                <td>6. Australia</td>
+                <td>7. China</td>
+                <td>8. Mexico</td>
+            </tr>
+            <tr>
+                <td><span>9. </span><span id="randomCountry"></span></td>
+                <td>10. Italy</td>
+                <td>11. Brazil</td>
+                <td>12. Argentina</td>
+            </tr>
+            <tr>
+                <td>13. Russia</td>
+                <td>14. South Korea</td>
+                <td>15. United States</td>
+                <td>16. England</td>
+            </tr>
+            <tr>
+                <td>17. Spain</td>
+                <td><span>18. </span><span id="randomCountry"></span></td>
+                <td>19. Turkey</td>
+                <td>20. Egypt</td>
+            </tr>
+            <tr>
+                <td>21. Greece</td>
+                <td>22. New Zealand</td>
+                <td>23. Sweden</td>
+                <td>24. Norway</td>
+            </tr>
+            <tr>
+                <td>25. Denmark</td>
+                <td>26. Netherlands</td>
+                <td><span>27. </span><span id="randomCountry"></span></td>
+                <td>28. Ukraine</td>
+            </tr>
+            <tr>
+                <td>29. Czech Republic</td>
+                <td>30. Austria</td>
+                <td>31. Switzerland</td>
+                <td>32. Colombia</td>
+            </tr>
+            <tr>
+                <td>33. Chile</td>
+                <td>34. Venezuela</td>
+                <td>35. Peru</td>
+                <td><span>36. </span><span id="randomCountry"></span></td>
+            </tr>
+            <tr>
+                <td>37. South Africa</td>
+                <td>38. Morocco</td>
+                <td>39. Algeria</td>
+                <td>40. Iraq</td>
+            </tr>
+            <tr>
+                <td>41. Syria</td>
+                <td>42. Lebanon</td>
+                <td>43. Palestine</td>
+                <td>44. Jordan</td>
+            </tr>
+            <tr>
+                <td><span>45. </span><span id="randomCountry"></span></td>
+                <td>46. United Arab Emirates</td>
+                <td>47. Qatar</td>
+                <td>48. Bahrain</td>
+            </tr>
+            <tr>
+                <td>49. Kuwait</td>
+                <td>50. Afghanistan</td>
+                <td>51. Pakistan</td>
+                <td>52. Bangladesh</td>
+            </tr>
+            <tr>
+                <td>53. Malaysia</td>
+                <td><span>54. </span><span id="randomCountry"></span></td>
+                <td>55. Philippines</td>
+                <td>56. Vietnam</td>
+            </tr>
+            <tr>
+                <td>57. Thailand</td>
+                <td>58. Myanmar</td>
+                <td>59. Laos</td>
+                <td>60. Cambodia</td>
+            </tr>
+            <tr>
+                <td>61. Singapore</td>
+                <td>62. Belgium</td>
+                <td><span>63. </span><span id="randomCountry"></span></td>
+                <td>64. Iceland</td>
+            </tr>
+            <tr>
+                <td>65. Ireland</td>
+                <td>66. Croatia</td>
+                <td>67. Serbia</td>
+                <td>68. Bulgaria</td>
+            </tr>
+            <tr>
+                <td>69. Romania</td>
+                <td>70. Hungary</td>
+                <td>71. Sri Lanka</td>
+                <td><span>72. </span><span id="randomCountry"></span></td>
+            </tr>
+            <tr>
+                <td>73. Uzbekistan</td>
+                <td>74. Kazakhstan</td>
+                <td>75. Georgia</td>
+                <td>76. Armenia</td>
+            </tr>
+            <tr>
+                <td>77. Azerbaijan</td>
+                <td>78. Libya</td>
+                <td>79. Tunisia</td>
+                <td>80. Congo</td>
+            </tr>
+            <tr>
+                <td><span>81. </span><span id="randomCountry"></span></td>
+                <td>82. Ethiopia</td>
+                <td>83. Sudan</td>
+                <td>84. Mali</td>
+            </tr>
+            <tr>
+                <td>85. Chad</td>
+                <td>86. Zimbabwe</td>
+                <td>87. Zambia</td>
+                <td>88. Angola</td>
+            </tr>
+            <tr>
+                <td>89. Namibia</td>
+                <td>90. Botswana</td>
+                <td>91. Lesotho</td>
+                <td>92. Cuba</td>
+            </tr>
+            <tr>
+                <td>93. Jamaica</td>
+                <td>94. Haiti</td>
+                <td>95. Panama</td>
+                <td>96. Costa Rica</td>
+            </tr>
+            <tr>
+                <td>97. Nicaragua</td>
+                <td>98. El Salvador</td>
+                <td>99. Guatemala</td>
+                <td>100. Honduras</td>
+            </tr>
+        </table>
+        <button class="btn-ok"> I found </button>
+    </nav>
+</div>
+    <nav class="B">
+        <p class="text-box-1"></p>
+        <p class="text-box">
+            </br>
+            <span class="text"> I found your country ☺ </span><br><br><br><br>
+            <span id="randomCountry-1">  </span>
+        </p>
+        <button class="btn-ok" onclick="location.href='../index.html'"> again </button>
+    </nav>
+</body>
+
+</html>
+<script>
+    let countries = ["Kordstan", "France", "Germany", "Japan", "Canada", "Australia", "China", "Mexico", "India", "Italy"];
+    let rnd = countries[Math.floor((Math.random()*10)%countries.length)];
+    document.querySelectorAll("#randomCountry").forEach((e)=>{
+        e.innerHTML = rnd
+    })
+    document.querySelector(".btn-ok").onclick = ()=>{
+        document.querySelector(".A").style.display = "none"
+        document.querySelector(".B").style.display = "block"
+        document.querySelector("#randomCountry-1").innerHTML = rnd
+    }
+</script>

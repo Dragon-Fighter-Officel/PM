@@ -20,11 +20,15 @@
       <input type="radio" name="tab" id="Account">
       <input type="radio" name="tab" id="search">
 
-      <label hx-get="/Pages/imges/imges-1.html" hx-target=".body" for="Home" class="Home"><a href="#"><i class="fas fa-home"></i>Home</a></label>
-      <label hx-get="/Pages/clock.html" hx-target=".body" for="Chat" class="Chat"><a href="#"><i class="fas fa-clock"></i>Clocks</a></label>
-      <label for="Messages" class="Messages"><a href="#"><i class="fas fa-gamepad"></i> Fun </a></label>
+      <label hx-get="/Pages/imges/imges-1.html" hx-target=".body" for="Home" class="Home"><a href="#"><i
+            class="fas fa-home"></i>Home</a></label>
+      <label hx-get="/Pages/clock.html" hx-target=".body" for="Chat" class="Chat"><a href="#"><i
+            class="fas fa-clock"></i>Clocks</a></label>
+      <label hx-get="/Pages/Fun.html" hx-target=".body" for="Messages" class="Messages"><a href="#"><i
+            class="fas fa-gamepad"></i> Fun </a></label>
       <label for="Favorites" class="Favorites"><a href="#"><i class="fas fa-heart"></i>Ioved</a></label>
-      <label for="Account" class="Account"><a href="#"><i class="fas fa-user"></i>Account</a></label>
+      <label hx-get="/Pages/Login.html" hx-target=".body" for="Account" class="Account"><a href="#"><i
+            class="fas fa-user"></i>Account</a></label>
       <label for="search" class="search"><a href="#"><i class="fas fa-search"></i>search</a></label>
       <div class="tab"></div>
     </nav>
@@ -35,41 +39,44 @@
   <div class="body">
     <div class="title">
       <span class="namewab"> Dragon☻ </span>
-      <p class="titler"> برای دانلود پس زمینه دلخواه خود روی آن کلیک کنید </p>
+      <p class="titler"> Click on it to download your desired background </p>
     </div>
     <div class="body-img">
       <a href="imges/dragon-fighter-officel.github.ioPM (1).jpg" download>
         <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (1).jpg" alt="img">
-          <p>برای دانلود کلیک کنید</p>
+          <p> Click for download </p>
         </article>
       </a>
       <a href="imges/dragon-fighter-officel.github.ioPM (2).jpg" download>
         <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (2).jpg" alt="img">
-        <p>برای دانلود کلیک کنید</p>
-      </article>
+          <p> Click for download </p>
+        </article>
       </a>
       <a href="imges/dragon-fighter-officel.github.ioPM (3).jpg" download>
-      <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (3).jpg" alt="img">
-        <p>برای دانلود کلیک کنید</p>
-      </article>
+        <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (3).jpg" alt="img">
+          <p> Click for download </p>
+        </article>
       </a>
       <a href="imges/dragon-fighter-officel.github.ioPM (4).jpg" download>
-      <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (4).jpg" alt="img">
-        <p>برای دانلود کلیک کنید</p>
-      </article>
+        <article class="imges"><img class="img-1" src="imges/dragon-fighter-officel.github.ioPM (4).jpg" alt="img">
+          <p> Click for download </p>
+        </article>
       </a>
       <div class="Wallpaper">
       </div>
     </div>
     <form class="BtnP">
-      <p class="footer"> Copyright © 2025 Dragon☻ All rights reserved </p>
       <input hx-get="/Pages/imges/imges-1.html" hx-target=".body" type="button" class="BtnP-1" value="1">
       <input hx-get="/Pages/imges/imges-2.html" hx-target=".body" type="button" class="BtnP-2" value="2">
       <input hx-get="/Pages/imges/imges-3.html" hx-target=".body" type="button" class="BtnP-3" value="3">
       <input hx-get="/Pages/imges/imges-4.html" type="button" class="BtnP-4" value="4">
       <input hx-get="/Pages/imges/imges-5.html" type="button" class="BtnP-5" value="5">
     </form>
+    <form class="footerf">
+      <p class="footer"> Copyright © 2025 Dragon☻ All rights reserved </p>
+    </form>
 </body>
+
 </html>
 <script src="Java/index.js"></script>
 <script src="https://unpkg.com/htmx.org@2.0.4"></script>

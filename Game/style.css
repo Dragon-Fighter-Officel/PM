@@ -1,0 +1,68 @@
+body{
+    background-color: #cccccc;
+    background-image: linear-gradient(rgb(106, 0, 255),rgba(255, 0, 0, 0.842));
+}
+.body-Game{
+    background-color: rgba(180, 180, 180, 0.800);
+    width: 700px;
+    height: 1000px;
+    margin-left: 402.4px;
+    border-radius: 35px;
+    margin-top: 0px;
+}
+.text-box{
+    background-color: rgba(180, 180, 180);
+    width: 600px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 0px;
+    border-radius: 35px;
+    text-align: center;
+    font-family: tahoma;
+}
+.text-box-1{
+    height: 50px;
+    margin: 0;
+}
+.text{
+    text-align: center;
+    margin-top: 100px;
+    font-size: larger;
+}
+.btn-ok{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(131, 41, 216);
+    color: white;
+    text-align: center;
+    font-family: tahoma;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 18px;
+    margin-left: 250px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn-ok:hover{
+    background-color: rgb(148, 75, 217);
+    font-size: 20px;
+}
+.table-1{
+    width: 600px;
+    margin-left:60px;
+    margin-top: 0px;
+    border-radius: 35px;
+    font-family: tahoma;
+    font-size: 15px;
+    text-align: left;
+}
+.B{
+    background-color: rgba(180, 180, 180, 0.800);
+    width: 700px;
+    height: 1000px;
+    margin-left: 402.4px;
+    border-radius: 35px;
+    margin-top: 0px;
+    display: none;
+}
